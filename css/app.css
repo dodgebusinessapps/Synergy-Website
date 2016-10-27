@@ -18,6 +18,11 @@ GENERAL
 
 h1, h2, h3, h4, h5, p {
   font-family: roboto;
+  color: #707678;
+}
+
+nav.border {
+  border-bottom: 5px inset #707678;
 }
 
 .wrap {
@@ -33,7 +38,17 @@ h1, h2, h3, h4, h5, p {
   margin: 1em;
 }
 
+p.home {
+  padding-top: 25px;
+}
 
+p.bottom-blurbs
+
+b.home-blurbs {
+  color: #61A53A;
+  font-weight: 600;
+  font-size: 100%;
+}
 
 /* ******************************************
 NAVIGATION
@@ -45,14 +60,14 @@ NAVIGATION
 }
 
 li.nav {
-  padding: 0px 5px 0 0;
+  padding: 0px 20px 0 0;
 }
 
 a.phone {
-  padding: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 80px;
 
   font-family: Roboto;
-  font-size: 155%;
+  font-size: 125%;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -78,14 +93,14 @@ a.phone {
 .top-bar-look {
   background-color: #363636;
   font-family: Roboto;
-  font-size: 110%;
+  font-size: 100%;
   padding: 15px 25px 15px 25px;
   margin-left: 25%;
 }
 
 b.top-menu {
   font-family: Roboto;
-  font-size: 130%;
+  font-size: 100%;
 }
 
 
@@ -96,7 +111,7 @@ ul {
     list-style-type: none;
     background-color: #f1f1f1;
     font-family: Roboto;
-    font-size: 120%;
+    font-size: 100%;
 
 
 }
@@ -108,7 +123,7 @@ li a {
     color: #313638;
     text-decoration: none;
     font-family: Roboto;
-    font-size: 120%;
+    font-size: 110%;
 
 
 }
@@ -137,15 +152,19 @@ HERO
 
 
 .hero {
- background: url(../resources/img/water.jpg) #61a53a no-repeat center center fixed;
+ /* background: url(../resources/img/water.jpg) #61a53a no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
  padding: 80px 60px 30px 60px;
+ /*
  min-height: 100%;
  height: 0 auto;
- border-top: 5px inset #313638;
+ */
+
+ border-bottom: 5px inset #707678;
 }
 
 
@@ -173,12 +192,12 @@ p.hero-p {
 
 .hero-text-background {
   background: #134193;
-  background:rgba(19,65,147,0.9);
+  background:rgba(49,54,56,0.9);
   padding: 20px 20px;
-  margin: 20% auto;
+  margin: 40% auto;
 
 }
-
+rgba(19,65,147,0.9)
 
 h2.hero-h {
   font-size: 400%;
@@ -204,13 +223,14 @@ MAIN SECTION BLURBS
 
 .main {
   padding: 0px auto;
-  margin: 0px 0px 80px 0px;
+  margin: 80px 0px 80px 0px;
+
 }
 
 
 
 h3.main-header {
-  padding: 80px 0 50px 0;
+  padding: 0px 0 50px 0;
 }
 
 .button {
@@ -319,7 +339,7 @@ HERO
  min-height: 50%;
  max-height: 50%;
  height: 0 auto;
-
+ border-bottom: 5px inset #707678;
 }
 
 .about-hero-text {
@@ -354,7 +374,7 @@ ABOUT US MAIN SECTION
 }
 
 .main-header {
-  padding: 10rem;
+  padding: 20px;
 }
 
 .button {
@@ -370,10 +390,11 @@ ABOUT BLURBS
 ************************************************* */
 
 .about-blurbs {
-  border-top: 3px solid #61A53A;
+  border-top: 3px solid #61a53a;
   border-bottom: 3px solid #61A53A;
-  padding: 40px 0 50px;
+  padding: 120px 0 120px;
 }
+
 
 
 /* *************************************************
@@ -390,7 +411,10 @@ ABOUT - HOW WE DO IT
  min-height: 50%;
  max-height: 100%;
  height: 0 auto;
+}
 
+.about-how-border {
+  border-top: 5px solid #707779;
 }
 
 .about-how-text {
@@ -403,6 +427,23 @@ ABOUT - HOW WE DO IT
 /* **************************************************************
 SERVICES PAGE
 ************************************************************** */
+
+.services-main {
+  border-bottom: 5px inset #707678;
+}
+
+h4.blurbs {
+  margin-top: 30px;
+  padding: 10px 0;
+  border-top: 3px solid #61a53a;
+  border-bottom: 2px solid #313638;
+  max-width: 70%;
+}
+
+.services-content {
+  padding: 40px 0 50px;
+  min-width: 100%;
+}
 
 .columns-services {
   padding: 2.5em;
@@ -451,6 +492,43 @@ CONTACT US
 .contact-content {
   margin: 30px;
 }
+
+/**********************************************
+==================BOTTOM CTA==================
+*********************************************/
+section.bottom {
+ background: url(../resources/img/bottom-cta.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  min-height: 40%;
+  height: 0 auto;
+  border-top: 5px solid #707678;
+  border-bottom: 5px solid #707678;
+
+  padding: 80px 0px 80px 0px;
+}
+
+.services-button {
+  padding: 10px 0 0;
+  margin: 0 auto;
+  max-width: 85%;
+  min-width: 65%;
+  color: #fff;
+  font-size: 150%;
+  text-align: center;
+  display: inline-block;
+  background-color: #61a53a;
+}
+
+.bottom-blurbs {
+  border-top: 3px solid #61a53a;
+  border-bottom: 3px solid #707678;
+  padding: 40px 0 50px;
+}
+
 /* ********************************************
 FOOTER
 ******************************************** */
@@ -458,4 +536,98 @@ FOOTER
 footer {
   background-color: #313638;
   padding: 15px 0;
+}
+
+
+
+
+
+
+/***************************************************
+carousel
+*****************************************************/
+
+/* Hero Carousel */
+.carouselWrap{
+	position: relative;
+	width: 100%;
+	max-height: 560px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+.carousel{
+	width: auto;
+	max-height: 560px;
+	overflow: hidden;
+	color: #fff;
+}
+.carousel .item{
+	width: 960px;
+	max-width: 967px;
+	max-height: 560px;
+	height: 560px;
+	position: relative;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 0px 0px 0px 10px!important;
+}
+.carousel .item:first-child{
+	margin: 0px!important;
+}
+.herorow img{
+	max-width: 100%;
+}
+.item .carouselOverlay{
+	position: absolute;
+	width: 270px;
+	height: 507px;
+	background-color: rgba(0,0,0,0.7);
+	top: 0px;
+	right: 0px;
+	padding: 53px 20px 0px 20px;
+	color: #fff;
+}
+.carousel p{
+	margin-bottom: 15px;
+}
+#prev, #next {
+	background-color: rgba(215, 215, 215, 0.9);
+	display: block;
+	height: 560px;
+	width: 50%;
+	top: 0;
+	position: absolute;
+}
+#prev:hover, #next:hover {
+	background-color: #fff;
+	background-color: rgba(215, 215, 215, 0.7);
+}
+#prev {
+	left: -480px;
+}
+#next {
+	right: -480px;
+}
+#pager {
+	margin-right: -465px;
+	position: absolute;
+	right: 50%;
+	bottom: 17px;
+}
+#pager a {
+	display: inline-block;
+	width: 10px;
+	height: 5px;
+	margin: 0 5px 0 0;
+	background-color: #fff;
+}
+#pager a:hover {
+	background-color: #8b8b8b;
+}
+#pager a span {
+	display: none;
+}
+#pager a.selected {
+	background-color: #8b8b8b;
 }

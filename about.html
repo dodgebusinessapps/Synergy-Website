@@ -11,34 +11,60 @@
 </head>
 
 <body>
-    <!-- DESKTOP NAVIGATION -->
-    <nav class="top-bar">
-        <div class="wrap">
+  <!-- MOBILE NAVIGATION -->
 
-            <div class="top-bar-title">
-                <img src="resources\img\header logo.png" alt="Synergy Credit Pros Logo" />
-            </div>
-            <div class="nav-pad">
-                <div class="top-bar-left">
-                    <ul class="menu">
+  <nav class="top-bar border">
+      <div class="wrap">
+
+
+  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Synergy Credit Pros</div>
+  </div>
+
+
+
+  <div class="top-bar nav-pad" id="example-menu">
+    <img class="show-for-large" src="resources\img\header logo.png" alt="Synergy Credit Pros Logo" />
+
+      <div class="top-bar-right">
+
+          <ul class="vertical medium-horizontal menu" data-dropdown-menu>
+              <li class="menu-text"></li>
+              <li>
+
+                  <ul class="menu vertical">
                       <li><a href="index.html">Home</a></li>
                       <li><a href="about.html">About Us</a></li>
                       <li><a href="services.html">Services</a></li>
-                      <li><a href="#">Credit Advice</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="top-bar-right">
-                    <h3>Call <a href="tel:1855.642.2765">855.642.2765</a></h3>
-                </div>
-            </div>
-        </div>
-    </nav>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="login.html">Sign In</a></li>
+                  </ul>
+              </li>
 
+              <li class="nav"><a class="active-nav" href="index.html">Home</a></li>
+              <li class="nav"><a href="about.html">About Us</a></li>
+              <li class="nav"><a href="services.html">Services</a></li>
+              <li class="nav"><a href="contact.html">Contact Us</a></li>
+              <li class="nav"><a href="login.html">Sign In</a></li>
+
+
+              <li>
+                <h3 style="color:blue" class="show-for-medium">855.642.2765</h3>
+              </li>
+          </ul>
+      </div>
+      <!-- <div class="title-bar-right">
+          <ul class="menu">
+              <li><h4>Call <a href="tel:1855.642.2765">855.642.2765</a></h4></li>
+          </ul> -->
+  </div>
+
+  </div>
+
+</nav>
     <!-- ABOUT HERO -->
-
-    <!-- HERO SECTION -->
-
 
     <section class="about-hero">
 
@@ -46,8 +72,13 @@
             <div class="row">
                 <div class="small-8 medium-6 columns">
                     <div class="about-hero-text about-hero-text-background">
-                        <h2>Get To Know</h2>
-                        <h1>Synergy Credit Pros</h1>
+                        <h1 align="center" style="color:#313638">Who We Are</h1>
+                        <p class="about-p" align="left">
+                            Synergy Credit Services was forged out of the need to balance the playing field when it came to creditors and the credit bureaus.  The banking industry can charge you more interest if you don't know how to play their credit game.  We wanted to be the, "Robin Hood," of credit and bring back balance.  Bad credit is like a big black rain cloud over your head...but at Credit Clean Pros we have the perfect storm to bring sunshine back into your life!  The definition of synergy is - the sum of all is greater than one. Together we rise!
+                        </p>
+                        <div align="left">
+                            <a href="#features" class="hero-button">Get Started</a>
+                        </div>
 
 
                     </div>
@@ -58,37 +89,21 @@
 
     </section>
 
-    <!-- ABOUT US MAIN -->
-
-    <section class="about-main">
-        <div class="wrap">
-
-            <h1 align="center" style="color:#313638">Why We Do This</h1>
-            <p class="about-p" align="center">
-                Synergy Credit Services was forged out of the need to balance the playing field when it came to creditors and the credit bureaus.  The banking industry can charge you more interest if you don't know how to play their credit game.  We wanted to be the, "Robin Hood," of credit and bring back balance.  Bad credit is like a big black rain cloud over your head...but at Credit Clean Pros we have the perfect storm to bring sunshine back into your life!  The definition of synergy is - the sum of all is greater than one. Together we rise!
-            </p>
-            <div align="center">
-                <a href="#features" class="button">Free Consultation</a>
-            </div>
-
-        </div>
-    </section>
-
 
     <!-- ABOUT BLURBS -->
-    <section class="about-main">
+    <section class="about-main about-blurbs-border">
         <div class="wrap about-blurbs">
 
 
             <div class="wrap">
 
                 <div class="row" align="center">
+                  <div class="small-4 columns">
+                      <h3 style="color:#313638">Accountability</h3><img src="resources\img\accountability.png" /></div>
                     <div class="small-4 columns">
-                        <h3 style="color:#313638">Honesty</h3><img src="http://placehold.it/250x250" /></div>
+                        <h3 style="color:#313638">Honesty</h3><img src="resources\img\consultation.png" /></div>
                     <div class="small-4 columns">
-                        <h3 style="color:#313638">Accountability</h3><img src="http://placehold.it/250x250" /></div>
-                    <div class="small-4 columns">
-                        <h3 style="color:#313638">Teamwork</h3><img src="http://placehold.it/250x250" /></div>
+                        <h3 style="color:#313638">Teamwork</h3><img src="resources\img\teamwork.png" /></div>
                 </div>
             </div>
         </div>
@@ -98,7 +113,7 @@
 
     <!-- HOW WE DO IT -->
 
-    <section class="about-how-hero">
+    <section class="about-how-hero about-how-border">
         <div class="wrap">
 
             <div class="row about-main">
@@ -116,7 +131,7 @@
 
 
     <!-- WHAT WE CAN DO FOR YOU -->
-    <section class="about-main">
+    <section class="bottom">
         <div class="wrap about-blurbs">
 
 
@@ -141,26 +156,15 @@
     <footer>
         <div class="wrap">
           <div class="row">
-
-
-            <ul class="vertical medium-horizontal menu">
-              <li><a href="#">Terms and Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Legal</a></li>
-              <li><a href="#">Affiliates</a></li>
-            </ul>
-
-
-            <!-- ORIGINAL NAVIGATION
-
-            <ul class="menu small-6 medium-4 columns">
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Legal</a></li>
-                <li><a href="#">Affiliates</a></li>
-            </ul> -->
-
-            <div class="small-6 medium-5 columns">
+            <div class="small-6 medium-3 columns">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            </div>
+            <div class="small-6 medium-3 medium-offset-2 columns">
+              <img src="resources\img\synergy-logo-vert-white.png" />
+            </div>
+            <div class="small-6 medium-3 columns">
               <h5>Synergy Credit Solutions LLC</h5>
               <p>1298 Main St Unit A #4265</p>
               <p>Windsor, CO 80550</p>
