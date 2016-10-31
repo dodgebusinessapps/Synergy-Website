@@ -1,23 +1,6 @@
 ITEMS THAT NEED WORK
 
-**homepage hero video has funky margins at the top and bottom
-
-**CTA could use some restyling
-
-**not sure about the green borders spread throughout the pages
-
-**Homepage tabs in section 3 need style
-
-**Footer needs blurb content
-
-**Replace placeholder images with permanent
-
-**Fix active pages in navigation
-
-**Add anchor link to all CTA's. Restyle CTA's for consistency.
-
-**Get content for "mortgages" page
-
+This will most likely be the first live version of the site. Hoping my php form works.
 
 KAY STUFF
 
